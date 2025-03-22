@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|c:\\users\\gsus\\desktop\\apsw\\itm_venta_de_carros\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|c:\\users\\gsus\\desktop\\apsw\\itm_venta_de_carros\\models\\itm_ventas.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|solutionrelative:models\\itm_ventas.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|c:\\users\\gsus\\desktop\\apsw\\itm_venta_de_carros\\clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|solutionrelative:clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|c:\\users\\gsus\\desktop\\apsw\\itm_venta_de_carros\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|c:\\users\\gsus\\desktop\\apsw\\itm_venta_de_carros\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4914D3-38F0-414D-ABAD-AEC72D52F366}|ITM_VENTA_DE_CARROS.csproj|solutionrelative:models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Models\\Venta.cs",
+              "RelativeToolTip": "Models\\Venta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:29:09.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:27:44.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:30:37.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Clases\\clsCliente.cs",
+              "RelativeDocumentMoniker": "Clases\\clsCliente.cs",
+              "ToolTip": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Clases\\clsCliente.cs",
+              "RelativeToolTip": "Clases\\clsCliente.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:38:45.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITM_ventas.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Models\\ITM_ventas.edmx",
+              "RelativeDocumentMoniker": "Models\\ITM_ventas.edmx",
+              "ToolTip": "C:\\Users\\Gsus\\Desktop\\APSW\\ITM_VENTA_DE_CARROS\\Models\\ITM_ventas.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\ITM_ventas.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-03-12T12:26:25.78Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

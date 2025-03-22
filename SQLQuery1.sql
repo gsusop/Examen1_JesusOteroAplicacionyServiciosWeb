@@ -1,0 +1,57 @@
+CREATE DATABASE ITM_Ventas;
+GO
+
+USE ITM_Ventas;
+GO
+
+CREATE TABLE Agencia (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL,
+    Ubicacion NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Marca (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Vehiculo (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    MarcaID INT NOT NULL,
+    Motor NVARCHAR(50) NOT NULL,
+    Puertas INT NOT NULL,
+    TipoCombustible NVARCHAR(50) NOT NULL,
+    Accesorios TEXT,
+    FOREIGN KEY (MarcaID) REFERENCES Marca(ID)
+);
+
+CREATE TABLE Cliente (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL,
+    Apellido NVARCHAR(100) NOT NULL,
+    Documento NVARCHAR(50) UNIQUE NOT NULL,
+    Telefono NVARCHAR(20)
+);
+
+CREATE TABLE Venta (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    ClienteID INT NOT NULL,
+    VehiculoID INT NOT NULL,
+    Fecha DATETIME DEFAULT GETDATE(),
+    Precio DECIMAL(18,2) NOT NULL,
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(ID),
+    FOREIGN KEY (VehiculoID) REFERENCES Vehiculo(ID)
+);
+
+INSERT INTO Cliente (Nombre, Apellido, Documento, Telefono) 
+VALUES 
+('Carlos', 'Pérez', '1001001001', '3110000001'),
+('María', 'Gómez', '1002002002', '3120000002'),
+('Juan', 'Rodríguez', '1003003003', '3130000003'),
+('Ana', 'Martínez', '1004004004', '3140000004'),
+('Luis', 'Fernández', '1005005005', '3150000005');
+GO
+SELECT * FROM Cliente;
+GO
+SELECT * FROM Cliente WHERE Documento = '1002002002';
+6
